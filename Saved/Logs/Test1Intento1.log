@@ -1,0 +1,136 @@
+﻿Log file open, 04/05/16 13:44:34
+LogInit:Display: Running engine for game: Test1Intento1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(302049814) SRandInit(302049818).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.111994
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+LogInit: Version: 4.11.0-2927265+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Mar 30 2016 02:13:55
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.05-11.44.34:636][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.05-11.44.34:636][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.05-11.44.34:660][  0]LogInit: Computer: MSI_VIGNOS
+[2016.04.05-11.44.34:660][  0]LogInit: User: cam29000
+[2016.04.05-11.44.34:660][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.04.05-11.44.34:660][  0]LogInit: High frequency timer resolution =2.435887 MHz
+[2016.04.05-11.44.34:660][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.05-11.44.34:660][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.05-11.44.34:660][  0]LogMemory: Process Physical Memory: 310.04 MB used, 310.04 MB peak
+[2016.04.05-11.44.34:660][  0]LogMemory: Process Virtual Memory: 315.25 MB used, 315.25 MB peak
+[2016.04.05-11.44.34:660][  0]LogMemory: Physical Memory: 4008.19 MB used, 8080.68 MB total
+[2016.04.05-11.44.34:660][  0]LogMemory: Virtual Memory: 633.34 MB used, 134217728.00 MB total
+[2016.04.05-11.44.34:725][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.05-11.44.35:752][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.05-11.44.35:836][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2016.04.05-11.44.35:836][  0]LogD3D11RHI:       32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.05-11.44.35:880][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 660M' (Feature Level 11_0)
+[2016.04.05-11.44.35:880][  0]LogD3D11RHI:       1986MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2016.04.05-11.44.35:883][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.04.05-11.44.35:883][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.05-11.44.35:883][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.05-11.44.35:897][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.05-11.44.35:898][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2016.04.05-11.44.35:898][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.04.05-11.44.35:898][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.04.05-11.44.35:898][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.05-11.44.35:940][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.05-11.44.35:967][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/cam29_000/Documents/GitHub/VirtualPlace/Intermediate/Shaders/WorkingDirectory/4080/).
+[2016.04.05-11.44.35:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CAM29_~1/AppData/Local/Temp/UnrealShaderWorkingDir/557BEE534C452F2F890ECC89587762D8/'.
+[2016.04.05-11.44.35:968][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.05-11.44.38:843][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.05-11.44.38:855][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.05-11.44.38:866][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.05-11.44.38:878][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.05-11.44.38:888][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.05-11.44.38:896][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.05-11.44.38:904][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.05-11.44.38:912][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.05-11.44.38:921][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.05-11.44.38:929][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.05-11.44.38:938][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.05-11.44.38:955][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.05-11.44.38:956][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.05-11.44.38:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.05-11.44.38:984][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.05-11.44.38:993][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.05-11.44.39:002][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.05-11.44.39:011][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.05-11.44.39:020][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.05-11.44.39:020][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.05-11.44.39:193][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.05-11.44.39:368][  0]LogDerivedDataCache: Loaded boot cache 0.17s 58MB C:/Users/cam29_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.05-11.44.39:368][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/cam29_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.05-11.44.39:368][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/cam29_000/Documents/GitHub/VirtualPlace/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.05-11.44.39:368][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.05-11.44.39:368][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/cam29_000/Documents/GitHub/VirtualPlace/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.05-11.44.39:368][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.05-11.44.39:409][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.05-11.44.39:423][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cam29_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.05-11.44.39:860][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.05-11.44.39:861][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.05-11.44.39:973][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.05-11.44.40:308][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.05-11.44.40:309][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.05-11.44.40:309][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.05-11.44.40:920][  0]LogUObjectArray: 27672 objects as part of root set at end of initial load.
+[2016.04.05-11.44.40:920][  0]LogUObjectAllocator: 5589896 out of 0 bytes used by permanent object pool.
+[2016.04.05-11.44.40:920][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.05-11.44.40:935][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.05-11.44.41:155][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.05-11.44.41:155][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.05-11.44.41:412][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.05-11.44.41:412][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.05-11.44.41:412][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.05-11.44.41:412][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.05-11.44.41:412][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.05-11.44.41:412][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.05-11.44.42:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.05-11.44.42:905][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2016.04.05-11.44.43:334][  0]SourceControl: Info Source control is disabled
+[2016.04.05-11.44.43:337][  0]SourceControl: Info Source control is disabled
+[2016.04.05-11.44.43:358][  0]SourceControl: Info Source control is disabled
+[2016.04.05-11.44.43:374][  0]SourceControl: Info Source control is disabled
+[2016.04.05-11.44.43:797][  0]LogEngine: Initializing Engine...
+[2016.04.05-11.44.43:799][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.05-11.44.44:179][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.05-11.44.44:188][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.04.05-11.44.44:289][  0]LogAudio:Error: CreateMasteringVoice error: Unhandled error code -2004287480
+[2016.04.05-11.44.44:289][  0]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2016.04.05-11.44.44:427][  0]LogDerivedDataCache: Saved boot cache 0.14s 58MB C:/Users/cam29_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.05-11.44.44:459][  0]LogInit: Texture streaming: Enabled
+[2016.04.05-11.44.44:546][  0]LogInit: Transaction tracking system initialized
+[2016.04.05-11.44.44:596][  0]BlueprintLog: New page: Editor Load
+[2016.04.05-11.44.44:765][  0]LocalizationService: Info Localization service is disabled
+[2016.04.05-11.44.44:903][  0]LogConsoleResponse:Display: 
+[2016.04.05-11.44.45:239][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.05-11.44.45:239][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.05-11.44.45:240][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.05-11.44.45:371][  0]LogFileCache: Scanning file cache for directory 'C:/Users/cam29_000/Documents/GitHub/VirtualPlace/Content/' took 0.01s
+[2016.04.05-11.44.45:371][  0]SourceControl: Info Source control is disabled
+[2016.04.05-11.44.45:372][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.05-11.44.45:373][  0]LightingResults: New page: Lighting Build
+[2016.04.05-11.44.45:380][  0]MapCheck: New page: Map Check
+[2016.04.05-11.44
